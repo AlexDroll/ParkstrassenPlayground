@@ -1,0 +1,11 @@
+
+
+file(GLOB HEADERS "*.h")
+file(GLOB SOURCES "*.cpp")
+
+
+add_library(LibTools ${SOURCES} ${HEADERS})
+
+
+set(LIBS ${LIBS})
+TARGET_LINK_LIBRARIES(LibTools ${LIBS})

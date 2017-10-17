@@ -1,0 +1,12 @@
+
+
+include_directories(${PROJECT_SOURCE_DIR}/tools)
+
+
+link_directories(${PROJECT_SOURCE_DIR/lib})
+
+set(LIBS ${LIBS} LibTools)
+
+
+add_executable(TCPIP MainProgramm.cc)
+target_link_libraries(TCPIP ${LIBS})

@@ -1,0 +1,9 @@
+/home/alex/Programmieren/cpp/TCP/build/CMakeFiles/edit_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/src/CMakeFiles/edit_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/src/CMakeFiles/rebuild_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/src/CMakeFiles/MainProgramm.dir
+/home/alex/Programmieren/cpp/TCP/build/src/CMakeFiles/RunTCPServer.dir
+/home/alex/Programmieren/cpp/TCP/build/tools/CMakeFiles/edit_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/tools/CMakeFiles/rebuild_cache.dir
+/home/alex/Programmieren/cpp/TCP/build/tools/CMakeFiles/LibTools.dir

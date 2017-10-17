@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alex/Programmieren/cpp/TCP/tools/TCPServer.cpp
+TCPServer.h
+/home/alex/Programmieren/cpp/TCP/tools/TCPServer.h
+
+/home/alex/Programmieren/cpp/TCP/tools/TCPServer.h
+iostream
+-
+stdlib.h
+-
+sys/socket.h
+-
+unistd.h
+-
+
+/home/alex/Programmieren/cpp/TCP/tools/explClass.cpp
+explClass.h
+/home/alex/Programmieren/cpp/TCP/tools/explClass.h
+
+/home/alex/Programmieren/cpp/TCP/tools/explClass.h
+iostream
+-
+
