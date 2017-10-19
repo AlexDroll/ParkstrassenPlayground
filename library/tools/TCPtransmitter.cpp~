@@ -1,0 +1,43 @@
+#include "TCPtransmitter.h"
+
+
+TCPtransmitter::TCPtransmitter(int cPort)
+{
+  fPort = cPort;
+
+  std::cout << "Send to Port : " << fPort << std::endl;
+  fDescriptor = -1;
+  fDescriptor = socket(AF_INET, SOCK_STREAM,0);
+  if(fDescriptor > 0)
+    std::cout << "Socket angelegt mit Descriptor: " << fDescriptor << std::endl;
+
+  fBuffer = new char[BUF];
+
+  struct sockaddr_in address;
+  address.sin_family = AF_INET;
+  address.sin_port = 9000;
+
+  
+}
+
+TCPtransmitter::~TCPtransmitter()
+{
+  //CLose socket:
+
+}
+
+
+
+void TCPtransmitter::SetAddress(struct sockaddr_in cAddress)
+{
+  fAddress = cAddress;
+  
+}
+
+
+
+void TCPtransmitter::Connect()
+{
+  
+
+}

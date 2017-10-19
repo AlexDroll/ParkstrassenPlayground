@@ -1,0 +1,19 @@
+#include <iostream>
+#include <stdlib.h>
+
+
+#include "../tools/TCPtransmitter.h"
+
+
+int main()
+{
+  std::cout << "Starte Programm:" << std::endl;
+
+
+  
+  TCPtransmitter cSender = TCPtransmitter(9000);
+  
+  
+
+
+}

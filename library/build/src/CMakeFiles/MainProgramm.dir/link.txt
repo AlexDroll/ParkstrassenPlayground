@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/MainProgramm.dir/MainProgramm.cc.o  -o MainProgramm -rdynamic ../tools/libLibTools.so -Wl,-rpath,/home/alex/Programmieren/cpp/TCP/build/tools 

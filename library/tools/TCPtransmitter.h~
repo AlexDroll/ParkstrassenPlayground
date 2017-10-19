@@ -1,0 +1,47 @@
+#ifndef TCPTRANSMITTER_H
+#define TCPTRANSMITTER_H
+
+
+#include <iostream>
+#include <stdlib.h>
+
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <netinet/in.h>
+//#include <arpa/inet.h>
+
+#include <unistd.h>
+
+#define BUF 1024
+
+
+class TCPtransmitter
+{
+ public:
+  TCPtransmitter(int cPort);
+  ~TCPtransmitter();
+
+  void SetAddress(struct sockaddr_in cAddress);
+
+  void Connect();
+  
+ private:
+  struct sockaddr_in fAddress;
+  
+  int fPort;
+
+  int fDescriptor;
+
+  char* fBuffer;
+
+
+
+
+
+};
+
+
+
+
+
+#endif

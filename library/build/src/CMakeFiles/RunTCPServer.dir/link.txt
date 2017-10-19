@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/RunTCPServer.dir/RunTCPServer.cc.o  -o RunTCPServer -rdynamic ../tools/libLibTools.so -Wl,-rpath,/home/alex/Programmieren/cpp/TCP/build/tools 
